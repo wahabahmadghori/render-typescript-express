@@ -7,7 +7,7 @@ const port = 3000;
 application
   .get("/", (req, res) => {
     res.send({
-      message: "Hello, World!",
+      message: "This is first commit!",
     });
   })
   .get("/random", (req, res) => {
