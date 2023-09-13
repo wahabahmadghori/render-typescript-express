@@ -2,9 +2,9 @@
   "name": "render-typescript-express",
   "scripts": {
     "build": "tsc",
-    "dev": "ts-node ./src/application.ts",
+    "dev": "ts-node ./src/index.ts",
     "format": "prettier --write . --ignore-path .gitignore",
-    "start": "node ./dist/application.js"
+    "start": "node ./dist/index.js"
   },
   "dependencies": {
     "body-parser": "^1.20.2",

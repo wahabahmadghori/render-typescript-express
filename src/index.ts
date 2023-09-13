@@ -1,10 +1,10 @@
 import express from "express";
 
-const application = express();
+const server = express();
 
 const port = 3000;
 
-application
+server
   .get("/", (req, res) => {
     res.send({
       message: "This is first commit!",
@@ -16,6 +16,6 @@ application
     });
   });
 
-application.listen(port, () => {
+server.listen(port, () => {
   console.log(`Application listening on port ${port}`);
 });
