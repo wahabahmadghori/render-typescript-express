@@ -1,7 +1,8 @@
 {
   "compilerOptions": {
-    "module": "CommonJS", // Choose the appropriate module system for your project
-    "moduleResolution": "node",
+    "module": "NodeNext", // Choose the appropriate module system for your project
+    "target": "ES2020",
+    "moduleResolution": "NodeNext",
     "esModuleInterop": true,
     "outDir": "./dist"
   },
