@@ -3,7 +3,8 @@
     "module": "CommonJS", // Choose the appropriate module system for your project
     "moduleResolution": "Node",
     "esModuleInterop": true,
-    "outDir": "./dist"
+    "outDir": "./dist",
+    "target": "ES2020"
   },
   "include": ["src/**/*.ts"], // Include the source files you want to compile
   "exclude": ["node_modules"] // Exclude the "node_modules" directory from compilation
