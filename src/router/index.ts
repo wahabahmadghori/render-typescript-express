@@ -1,8 +1,8 @@
 import { Router } from "express";
-import users from "./chat_model";
+import chat from "./chat_model";
 const router = Router();
 
 export default (): Router => {
-  users(router);
+  chat(router);
   return router;
 };
