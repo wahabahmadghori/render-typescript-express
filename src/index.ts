@@ -16,6 +16,7 @@ app.use(compression());
 app.use(cookieParser());
 app.use(bodyParser.json());
 app.use("/", router());
+
 app.listen(port, () => {
   console.log(`Application listening on port ${port}`);
 });
